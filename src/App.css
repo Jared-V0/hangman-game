@@ -1,0 +1,53 @@
+.app-container {
+  min-height: 100vh;
+  background: #111827;
+  color: #f3f4f6;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.game-layout {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.word-display {
+  font-size: 32px;
+  letter-spacing: 10px;
+  margin-top: 20px;
+}
+
+.keyboard {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+
+.letter-btn {
+  padding: 10px;
+  font-size: 18px;
+  background: #1f2937;
+  color: white;
+  border: 1px solid #374151;
+}
+
+.letter-btn:disabled {
+  opacity: 0.3;
+}
+
+.help-modal {
+  background: white;
+  color: black;
+  padding: 20px;
+  width: 350px;
+  border-radius: 10px;
+}
