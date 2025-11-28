@@ -38,17 +38,17 @@ The game uses React Hooks (`useState`, `useEffect`) to manage:
 - Game state (playing / won / lost)  
 - Help modal visibility  
 
-### ✔ External Word Generator  
+###  External Word Generator  
 Words are generated from the **random-words** package.
 
-### ✔ Dynamic Hangman Drawing  
+###  Dynamic Hangman Drawing  
 The hangman updates based on the number of wrong guesses.  
 This version includes **11 GIF images** for smooth animation/progression.
 
-### ✔ Restart Functionality  
+###  Restart Functionality  
 Players can reset the game at any time.
 
-### ✔ Help / Rules Modal  
+###  Help / Rules Modal  
 Provides instructions on how to play the game.
 
 ---
